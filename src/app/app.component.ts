@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { INote } from './model/INote';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ProyectoNotea';
+  title = 'holamundo';
+
+
+  public alerta(){
+    alert("Alerta Roja");
+  }
 }
